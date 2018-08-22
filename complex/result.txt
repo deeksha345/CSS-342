@@ -1,0 +1,38 @@
+deeksha@uw1-320-13:~$ g++ *.cpp
+deeksha@uw1-320-13:~$ ./a.out
+type two doubles for c11: 5.0 7.0
+c1 = 0
+c2 = 1.2+4.9i
+c3 = 2.2+i
+c4 = 7+9.6i
+c5 = 8.1+4.3i
+c6 = 7.1i
+c7 = 6.4
+c8 = i
+c9 = 4.1i
+c10 = i
+c11 = 5+7i
+c1 + c2 + c3 = 3.4+5.9i
+c7 - c8 - c9= 6.4-5.1i
+c2 * 22 = 21.5+107.8i
+c2 * c3 = --1.26+11.98i
+c2 / c3 = --0.588542+2.49479i
+divide by 0 error
+c2 / c1 = 0
+ c2 / c5 = --0.240874+0.73281i
+c4 == c4 is true
+c4 != c4 is false
+Conjugate of8.1+4.3i is 8.1-4.3i
+Real of2.2+i is 2.2
+Imaginary of7+9.6i is 9.6
+(c5 += c2) += c3 is 11.5-1.6i
+(c5 -= c1) -= c2 is 10.3-6.5i
+(c5 *= 22) *= 13 is 3173.3-1859i
+(c5 *= c4) *= c4 is --49589.8+1.05114e+06i
+(c3 /= 2) / c3 is 1
+c4 is 7+9.6i
+divide by 0 error
+divide by 0 error
+(c4 /= c1) / c1 is 0
+c4 is 7+9.6i
+
